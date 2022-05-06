@@ -1,0 +1,65 @@
+body{
+    font-family: HelveticaNeueW9-75Bold,HelveticaNeueBold,HelveticaNeue-Bold,"Helvetica Neue Bold",HelveticaNeue,"Helvetica Neue",TeXGyreHerosBold,Helvetica,Tahoma,Geneva,Arial,sans-serif;
+}
+.navbar{
+    background-color: black;
+}
+.logo{
+    height: 32.9px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.navbarele{
+    font-size: 12px;
+    font-weight: 500;
+}
+.navbarele2{
+    font-size: 13px;
+
+}
+.list-group-item{
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    line-height:1px;
+}
+a{
+    color: black;
+}
+nav a:hover{
+    color: black;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.flag{
+    width: 23px;
+}
+.navimmages{
+    width:100%;
+}
+h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+.linkpic:hover{
+    text-decoration: none;
+    color:black;
+}
+.pushactive .img-top{
+    position: absolute;
+    left: 0%;
+    z-index: 99;
+    opacity: 0;
+    transition:.3s linear;
+}
+.pushactive:hover .img-top{
+    opacity: 1;
+}
+.socials img{
+    padding: 15px;
+    width: 60px;
+    filter: invert();
+}
+
